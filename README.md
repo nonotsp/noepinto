@@ -66,12 +66,3 @@ javac src/*.java
 java src.Main
 ```
 It will read and execute orders from the orders.csv file.
-
-### Example CSV
-
-TYPE,SIDE,QUANTITY,PRICE
-LIMIT,BUY,5,4.00
-LIMIT,SELL,4,5.00
-MARKET,SELL,3,
-LIMIT,BUY,2,5.20
-MARKET,BUY,3,
