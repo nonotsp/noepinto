@@ -8,8 +8,8 @@ Currently building a strong background in statistics, optimization, and software
 
 ---
 
-> 📬 **How to reach me**: [noe.pinto@telecom-sudparis.eu](mailto:noe.pinto@telecom-sudparis.eu)  
-> 💼 or via [LinkedIn](https://www.linkedin.com/in/noé-pinto-a6b952301/)
+>  **How to reach me**: [noe.pinto@telecom-sudparis.eu](mailto:noe.pinto@telecom-sudparis.eu)  
+>  or via [LinkedIn](https://www.linkedin.com/in/noé-pinto-a6b952301/)
 
 ---
 
