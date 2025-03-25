@@ -30,4 +30,23 @@ Designed to explore process synchronization and interprocess communication with 
 
 ---
 
+### [Order Book Simulator](https://github.com/nonotsp/order-book-simulator)
+
+**Order Book Simulator** is a Java-based simulation of a financial order book, supporting both market and limit orders.  
+This project was built as part of my academic and personal work during my second year at Télécom SudParis.
+
+## About the Project
+
+This simulator models a central limit order book, matching buy and sell orders using price and FIFO priority.  
+It supports:
+
+-  Limit orders (BUY / SELL)
+-  Market orders (BUY / SELL)
+-  FIFO matching (First-In-First-Out)
+-  Order book visualization (terminal view) *(new)*
+-  CSV-based execution (stream of orders) *(new)*
+-  Multi-order processing via algorithmic runner *(new)*
+
+## 📂 Project Structure
+
 
