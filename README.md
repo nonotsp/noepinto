@@ -18,3 +18,16 @@ In addition to coursework, I’ve been actively exploring quantitative finance, 
 Feel free to check out some of my work below 👇
 
 ---
+
+###  [Mini-Facebook](https://github.com/nonotsp/mini-facebook)
+
+A minimalist social network implemented in Bash.  
+Users can create accounts, add friends, post messages, and view their wall.  
+Designed to explore process synchronization and interprocess communication with named pipes.
+
+> `Bash • IPC • Process Synchronization • Systems Programming`
+
+
+---
+
+
