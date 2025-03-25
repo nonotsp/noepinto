@@ -47,6 +47,47 @@ It supports:
 -  CSV-based execution (stream of orders) *(new)*
 -  Multi-order processing via algorithmic runner *(new)*
 
-## 📂 Project Structure
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/nonotsp/order-book-simulator.git
+cd order-book-simulator
+```
+### 2. Compile the project
+
+```bash
+javac src/*.java
+```
+
+### 3. Run the simulation
+
+```bash
+java src.Main
+```
+It will read and execute orders from the orders.csv file.
+
+### Example CSV
+
+TYPE,SIDE,QUANTITY,PRICE
+LIMIT,BUY,5,4.00
+LIMIT,SELL,4,5.00
+MARKET,SELL,3,
+LIMIT,BUY,2,5.20
+MARKET,BUY,3,
+
+### Terminal Output (example)
+================= ORDER BOOK =================
+
+BIDS (BUY)                        ASKS (SELL)
+---------------------------------------------
+Price      | Qty              Price      | Qty
+-----------|------            -----------|------
+  4.00 €   | 5                 5.00 €   | 4
+  3.50 €   | 3                 5.50 €   | 2
+
+---------------------------------------------
+Mid Price : 4.50 €      Spread : 1.00 €
+
 
 
