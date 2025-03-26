@@ -59,7 +59,7 @@ cd order-book-simulator
 ```bash
 javac src/*.java
 ```
----
+
 
 ### 3. Run the simulation
 
@@ -67,6 +67,8 @@ javac src/*.java
 java src.Main
 ```
 It will read and execute orders from the orders.csv file.
+
+---
 
 ### [Kalman Filtering – Target Tracking](https://github.com/nonotsp/kalman-tracking-project)
 
