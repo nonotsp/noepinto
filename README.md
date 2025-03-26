@@ -86,7 +86,7 @@ The project is divided into three main parts:
 
 Includes a full implementation from scratch, error analysis, and performance visualization.
 
-> `Python • State-Space Models • Kalman Filter • EKF • Signal Processing
+> `Python • State-Space Models • Kalman Filter • EKF • Signal Processing`
 
 ---
 
