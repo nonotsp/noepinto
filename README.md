@@ -59,6 +59,7 @@ cd order-book-simulator
 ```bash
 javac src/*.java
 ```
+---
 
 ### 3. Run the simulation
 
@@ -66,3 +67,21 @@ javac src/*.java
 java src.Main
 ```
 It will read and execute orders from the orders.csv file.
+
+### [Kalman Filtering – Target Tracking](https://github.com/nonotsp/kalman-tracking-project)
+
+Kalman Filtering applied to the estimation of object trajectories from noisy sensor data.  
+Developed during the *Statistical Filtering* course at Télécom SudParis, this project includes both synthetic simulations and real-world applications (e.g., aircraft tracking).
+
+## About the Project
+
+The goal is to estimate the position and velocity of a moving target using probabilistic state-space models.  
+The project is divided into three main parts:
+
+- **Synthetic Scenario** – Simulation of a mobile object and reconstruction via standard Kalman Filter  
+- **Aircraft Tracking** – Application to real 2D trajectory data with missing observations  
+- **Extended Kalman Filter (EKF)** – Adaptation to nonlinear polar observations (angle and distance)
+
+Includes a full implementation from scratch, error analysis, and performance visualization.
+
+> `Python • State-Space Models • Kalman Filter • EKF • Signal Processing
