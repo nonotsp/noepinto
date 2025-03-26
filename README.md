@@ -87,3 +87,33 @@ The project is divided into three main parts:
 Includes a full implementation from scratch, error analysis, and performance visualization.
 
 > `Python • State-Space Models • Kalman Filter • EKF • Signal Processing
+
+---
+
+### [Particle Filtering – Object Tracking](https://github.com/nonotsp/particle-filtering-project)
+
+Implementation of a particle filter to estimate hidden states in non-linear and/or non-Gaussian models.  
+Developed during the *Statistical Filtering* course at Télécom SudParis, this project includes:
+- a benchmark model from econometrics (Kitagawa),
+- and a face tracking system based on color histograms from a video sequence.
+
+## About the Project
+
+The goal is to estimate the hidden state \( X_n \) from sequential noisy observations \( Y_n \), using a particle approximation of the posterior distribution.
+
+The project is divided into two main parts:
+
+- **Kitagawa Model (Econometrics)**  
+  A nonlinear state-space model used to test filtering performance.  
+  Includes particle filtering with resampling and analysis of estimation error under varying parameters.
+
+- **Face Tracking (Computer Vision)**  
+  Applies particle filtering to image sequences using a histogram-based observation model.  
+  Each particle defines a candidate position for the tracked object, and its weight is based on color similarity.
+
+Features include:
+- Adaptive tracking with resampling
+- Estimation of position in image frames
+- Real-time trajectory visualization
+
+> `Python • Particle Filter • Sequential Monte Carlo • Image Processing • Computer Vision`
